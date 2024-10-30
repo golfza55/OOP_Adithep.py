@@ -1,0 +1,12 @@
+name = str(input('กรอกชื่อ-สกุล '))
+nickname = str(input('กรอกชื่อเล่น '))
+age = int(input('กรอกอายุ '))
+ID = int(input('กรอกรหัสประจำตัวนักศึกษา '))
+level = int(input('กรอกระดับชั้น '))
+height = float(input('กรอกส่วนสูง '))
+weight = float(input('กรอกน้ำหนัก '))
+result = height+weight
+print(f"ชื่อ: {name} , ชื่อเล่น: {nickname}")
+print(f"อายุ: {age} , รหัสประจำตัวนักศึกษา: {ID} , ระดับชั้น: {level}")
+print(f"ส่วนสูง: {height} , น้ำหนัก: {weight}")
+print(f"ส่วนสูง + น้ำหนัก = {result}")
